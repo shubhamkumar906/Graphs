@@ -25,7 +25,7 @@ int main()
     //             adj[i][j] = 0;
     //     }
     // }
-    // other initially intialize with memset(t,0,sizeof(adj));
+    // otherwise initially intialize with memset(t,0,sizeof(adj));
     for(int i=1; i<=n; i++){
         for(int j=1; j<=n; j++){
             cout<<adj[i][j]<<" ";
